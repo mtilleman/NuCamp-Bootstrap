@@ -13,3 +13,16 @@ $(function() {
         }
     });
 });
+
+//Activate Reservation Modal
+
+$( "#reserveButton" ).click(function() {
+    $("#reserveModal").modal();
+});
+
+
+//Activate Login Modal
+
+$( "#loginButton" ).click(function() {
+    $("#loginModal").modal();
+});
